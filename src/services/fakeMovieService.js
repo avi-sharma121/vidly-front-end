@@ -1,0 +1,112 @@
+// import * as genresAPI from "./fakeGenreService";
+
+const movies = [
+  {
+    _id: "6035e0662b89a5bb4d05f100",
+    title: "The Nun",
+    genre: { _id: "6035de13f23b51b693b419e1", name: "Horror" },
+    numberInStock: 35,
+    dailyRentalRate: 20,
+    liked: false,
+  },
+  {
+    _id: "6035e16a2b89a5bb4d05f101",
+    title: "Black Panther",
+    genre: { _id: "6035de0bf23b51b693b419e0", name: "Sci Fi" },
+    numberInStock: 2,
+    dailyRentalRate: 50,
+    liked: false,
+  },
+  {
+    _id: "6035e0662b89a5bb4d05f102",
+    title: "The Conjuring",
+    genre: { _id: "6035de13f23b51b693b419e1", name: "Horror" },
+    numberInStock: 35,
+    dailyRentalRate: 20,
+    liked: false,
+  },
+  {
+    _id: "6035e16a2b89a5bb4d05f103",
+    title: "Thor",
+    genre: { _id: "6035de0bf23b51b693b419e0", name: "Sci Fi" },
+    numberInStock: 4,
+    dailyRentalRate: 30,
+    liked: false,
+  },
+  {
+    _id: "6035e0662b89a5bb4d05f104",
+    title: "The Forbidden Kingdom",
+    genre: { _id: "6019a24f655e553f06522be1", name: "Action" },
+    numberInStock: 15,
+    dailyRentalRate: 12,
+    liked: false,
+  },
+  {
+    _id: "6035e16a2b89a5bb4d05f105",
+    title: "Iron Man",
+    genre: { _id: "6035de0bf23b51b693b419e0", name: "Sci Fi" },
+    numberInStock: 2,
+    dailyRentalRate: 50,
+    liked: false,
+  },
+  {
+    _id: "6035e0662b89a5bb4d05f106",
+    title: "Don't Breathe",
+    genre: { _id: "6035de13f23b51b693b419e1", name: "Horror" },
+    numberInStock: 35,
+    dailyRentalRate: 20,
+    liked: false,
+  },
+  {
+    _id: "6035e16a2b89a5bb4d05f107",
+    title: "Avengers - End Game",
+    genre: { _id: "6035de0bf23b51b693b419e0", name: "Sci Fi" },
+    numberInStock: 2,
+    dailyRentalRate: 50,
+    liked: false,
+  },
+  {
+    _id: "6035e0662b89a5bb4d05f108",
+    title: "Wrong Turn",
+    genre: { _id: "6035de13f23b51b693b419e1", name: "Horror" },
+    numberInStock: 35,
+    dailyRentalRate: 20,
+    liked: false,
+  },
+  {
+    _id: "6035e16a2b89a5bb4d05f109",
+    title: "Thor Ragnarok",
+    genre: { _id: "6035de0bf23b51b693b419e0", name: "Sci Fi" },
+    numberInStock: 21,
+    dailyRentalRate: 50,
+    liked: false,
+  },
+  {
+    _id: "6035e0662b89a5bb4d05f110",
+    title: "Who Am I",
+    genre: { _id: "6019a24f655e553f06522be1", name: "Action" },
+    numberInStock: 12,
+    dailyRentalRate: 40,
+    liked: false,
+  },
+  {
+    _id: "6035e16a2b89a5bb4d05f111",
+    title: "Terminator 2",
+    genre: { _id: "6035de0bf23b51b693b419e0", name: "Sci Fi" },
+    numberInStock: 22,
+    dailyRentalRate: 50,
+    liked: false,
+  },
+  {
+    _id: "6035e16a2b89a5bb4d05f112",
+    title: "Guardians of the Galaxy",
+    genre: { _id: "6035de0bf23b51b693b419e0", name: "Sci Fi" },
+    numberInStock: 5,
+    dailyRentalRate: 31,
+    liked: false,
+  },
+];
+
+export function getMovies() {
+  return movies;
+}
